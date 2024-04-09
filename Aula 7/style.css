@@ -13,15 +13,16 @@ body {
     background-image: linear-gradient(68.15deg, #03afff 16.62%, #1201fd 85.61%)
 }
 
-.início {
+.sessao1 {
     margin-bottom: 60px;
-    border-top: 0.8px solid #fff2e7;
+    border-top: 0.10px solid #fff2e7;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 24px;
+    padding: 10px;
     padding-right: 24px;
 }
+
 .strong {
     color: rgb(221, 245, 3);
     font-size: 30px;
@@ -43,13 +44,28 @@ body {
     display: flex;
     padding-left: 10px;
 }
-
-.coleçao_de_imagem {
+/* SESSÃO 2 */
+.sessao2 {
     display: flex;
-    padding: 18px;
-    flex-direction: center;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    padding-right: 24px;
+}
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+}
+.coluna2 {
+    display: flex;
+    flex-direction: column;
 }
 
+.coluna3 {
+    display: flex;
+    flex-direction: column;
+}
 .imagem1 {
     height: 103px;
     width: 185px;
@@ -58,30 +74,26 @@ body {
 .imagem2 {
     height: 103px;
     width: 185px;
-
 }
+
 .imagem3 {
     height: 103px;
     width: 185px;
-
 }
 
 .imagem4 {
     height: 103px;
     width: 185px;
-    align-items: stretch;
-
 }
 
 .imagem5 {
     height: 103px;
     width: 185px;
-
 }
+
 .imagem6 {
     height: 103px;
     width: 185px;
- 
 }
 
 .nome input:hover {
@@ -139,4 +151,5 @@ body {
     border: none;
     padding: 5px;
     display: flex;
+    padding: 5px;
 }
