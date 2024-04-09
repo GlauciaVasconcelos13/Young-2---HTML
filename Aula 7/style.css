@@ -27,6 +27,12 @@ body {
     color: rgb(221, 245, 3);
     font-size: 30px;
 }
+
+.strong2 {
+    color: rgb(250, 154, 64);
+    font-size: 28px;
+}
+
 .titulo {
     color: rgb(252, 4, 4);
     font-size: 35px;
