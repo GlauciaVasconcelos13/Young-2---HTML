@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1530104091755-015d31dfa0b9?q=80&w=1418&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    color:springgreen;
+    font-size: 70px;
+    
+}
+.conteiner-contador {
+    display: flex;
+    background-color: rgba(194, 193, 193, 0.466);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 10px 10px 15px;
+    font-weight: bolder;
+    color: indigo;
+
+}
+
+.contador-elemento {
+    text-align: center;
+    margin: 0 30px;
+    font-size: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 8px;
+    color: deeppink;
+    font-size: 20px;
+}
