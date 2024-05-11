@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    background-color: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+  }
+  
+  .div1 {
+    background-color: #fbff00;
+    color: black;
+  }
+  
+  #div2 {
+    background-color: #14bd30;
+    color: black;
+  }
+  .div3{
+    font-size: 25px;
+  }
+  
+  section div .div2 {
+    background-color: red;
+  }
+  
+  section {
+    display: flex;
+  }
+  
+  .flex {
+    display: flex;
+    background-color: pink;
+  }
+  
+  .flex > div{
+    display: flex;
+    background-color: #a02c3f;
+    height: 50px;
+    width: 50px;
+  }
+  
