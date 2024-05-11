@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+  height: 50px;
+  margin: 30px 10px 5px 50px;
+  padding: 20px;
+  background-color: #67c16d;
+  color: #440303;
+}
+p {
+  color:  #fc0303;
+  background-color: #c4a4cb;
+  height: 20px;
+  width: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #0905f5;
+  background-color: #78e1e8;
+}
+div {
+  background-color: #fb74de;
+  height: 50px;
+  margin: 30px 10px 5px 50px;
+  padding: 20px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+}
