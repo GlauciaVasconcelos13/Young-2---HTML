@@ -3,9 +3,14 @@ let dias_n = document.getElementById ('dias_n')
 let horas_n = document.getElementById ('horas_n')
 let minutos_n = document.getElementById ('minutos_n')
 let segundos_n = document.getElementById ('segundos_n')
+let pergunta = window.prompt ('Digite a sua data: ', 'Ex: 15 february 2025')
+let som = document.getElementById ('som')
+
 
 // DATA ALVO
-let data_alvo = '06 January 2025'
+let data_alvo = (pergunta)
+let valor = data_alvo.valueOf
+
 
 // CRIAR FUNÇÃO DE CALCULAR A DIFERENÇA ATÉ A DATA
 function contagem ()
@@ -25,6 +30,7 @@ function contagem ()
     segundos_n.innerText =  formatar_digito (segundos)
     
     console.log (dias, horas, minutos, segundos)
+
 }
 
 //CHAMAR FUNÇÃO
@@ -47,4 +53,12 @@ function formatar_digito (tempo)
         return tempo
     }
 
+}
+
+function meta ()
+{
+    if (data_alvo == valor)
+    {
+        console.log (som)
+    }
 }
