@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgb(207, 120, 233) 100%);
+}
+
+.container-quiz {
+    background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px indigo;
+    border: solid rgba(0, 0, 0, 0.788);
+}
+
+.conteudo-quiz {
+
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: mediumvioletred;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px 0px;
+}
+
+ul li label,
+ul li input,
+button {
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    border: none;
+    background-color: rgba(231, 31, 181, 0.801);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 5px 10px indigo;
+
+}
+
+button:hover {
+    background-color: rgb(127, 211, 226);
+}
+
+.reset_btn {
+    cursor: pointer;
+    width: 100%;
+}
+
+#question {
+    color: indigo;
+}
