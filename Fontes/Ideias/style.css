@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap'); /*Madimi*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*Roboto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); /*Poetsen*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /*Righteous*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap'); /*Orbitron*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); /*Lora*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Kanit*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*Gochi*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap'); /*VT323*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=VT323&display=swap'); /* Nanum */
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Honk&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=VT323&display=swap');  /*Embed*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Honk&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Rubik+Doodle+Shadow&family=VT323&display=swap'); /*Rubik*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gochi+Hand&family=Honk&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Pen+Script&family=Rubik+Doodle+Shadow&family=VT323&display=swap'); /* Bumgee*/
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    color: hotpink;
+    font-size: 60px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+.madimi_one {
+    font-family: "Madimi One", sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.poetsen_one {
+    font-family: "Poetsen One", sans-serif;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.lora {
+    font-family: 'Lora', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.gochi {
+    font-family: "Gochi Hand", cursive;
+}
+
+.vt323 {
+    font-family: "VT323", monospace;
+}
+
+
+.nanum {
+    font-family: "Nanum Pen Script", cursive;
+}
+
+.embed {
+    font-family: "Honk", system-ui;
+}
+
+.rubik {
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+.bumgee {
+    font-family: "Bungee Shade", sans-serif;
+}
+
