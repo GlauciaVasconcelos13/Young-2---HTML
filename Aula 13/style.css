@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(189, 238, 174);
+    background: radial-gradient(circle, rgb(181, 238, 174) 0%, rgb(129, 233, 120) 100%);
+}
+
+h1 {
+    font-size: 40px;
+}
+main {
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.conteiner_btn {
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.submit {
+    background-color:rgb(129, 233, 120) ;
+}
+.reset {
+    background-color:rgb(86, 206, 75) ;
+}
+.submit:hover {
+    background-color:rgb(26, 139, 16) ;
+}
+.reset:hover {
+    background-color:rgb(26, 139, 16) ;
+}
+
+input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.conteiner-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.label {
+    /* font-weight: bolder; */
+    font-size: 20px;
+
+}
+
+.conteiner-result {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-voltar {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+a {
+    background-color: rgb(129, 233, 120) ;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
