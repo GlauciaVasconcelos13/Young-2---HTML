@@ -24,6 +24,6 @@ window.onload = function () {
     }
     
     NOME.innerHTML = nome_salvo
-    MEDIA.innerHTML = media
+    MEDIA.innerHTML = media.toFixed (1)
     RESULTADO.innerHTML = aprovacao
 }
