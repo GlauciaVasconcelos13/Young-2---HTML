@@ -5,43 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de senhas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <main>
-        <div id = 'conteiner'>
-            <div id = 'conteiner-senha'>
-                <span id = "senha">1234567</span>
+    <div id = 'conteiner-gerador-senha'>
+        <div class="head-gerador-senha">
+            <div class = 'senha'>
+                <span id = "senha"></span>
                 <button id = "copiar">Copiar</button>
             </div>
-            <div>
-                <label for="digito">Tamanho da Senha
-                    <input type="number">
-                </label>
+        </div>
+        <div class="body-gerador-senha">
+            <div class="form">
+                <label>Tamanho da Senha</label>
+                <input type="number" id="tamanho" min="6" max="18" >
             </div>
-            <div>
-                <label for="maiuscula">Maiuscula
-                    <input type= "checkbox">
-                </label>
+            <div class="form">
+                <label for="maiusculas">maiúsculas</label>
+                <input type= "checkbox" name="maiusculas" id="maiusculas">
             </div>
-            <div>
-                <label for="minuscula">Minuscula
-                    <input type="checkbox">
-                </label>
+            <div class="form">
+                <label for="minusculas">minúsculas</label>
+                <input type= "checkbox" name="minusculas" id="minusculas">
             </div>
-            <div>
-                <label for="numeros">Números
-                    <input type="checkbox">
-                </label>
+            <div class="form">
+                <label for="numeros">números</label>
+                <input type= "checkbox" name="numeros" id="numeros">
             </div>
-            <div>
-                <label for="caracteres">Caracteres especiais
-                    <input type="checkbox">
-                </label>
+            <div class="form">
+                <label for="caracteres-especiais">caracteres especiais</label>
+                <input type= "checkbox" name="caracteres-especiais" id="caracteres-especiais">
             </div>
-            <div>
-                <button>Gerar Senha</button>
+            <div class="conteiner-botoes">
+                <button type="submit" class="submit">Gerar Senha</button>
+                <button type="reset" class="reset">Limpar</button>
+            </div>
             </div>
         </div>
-    </main>
 </body>
 </html>
