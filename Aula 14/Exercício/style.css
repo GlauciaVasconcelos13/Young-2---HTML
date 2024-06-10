@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Jersey+25+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #bbf39e;
+    
+}
+
+#conteiner-gerador-senha {
+    background-color: #96cd7b ;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.head-gerador-senha {
+    background-color: #71a758;
+    border-radius: 10px;
+    /* box-shadow:5px 5px 10px black; */
+    padding: 10px;
+}
+
+.senha {
+    /* background-color: #baf39ea4; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    height: 30px;
+}
+
+.senha span {
+    padding-left: 10px;
+}
+
+.senha button {
+    padding: 10px;
+    transition: opacity 0.2s ease, transform 0.2s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.senha:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.body-gerador-senha {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tamanho {
+    width: 38px;
+}
+
+label {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+    font: bold;
+    border: none;
+    background-color: #71a758;
+    /* box-shadow:5px 5px 10px black; */
+    font-size: 20px;
+    border-radius: 5px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type = "checkbox"]{
+    accent-color: #71a758 ;
+    ;
+}
+
+.conteiner-botoes {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.conteiner-botoes button {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.submit {
+    background-color: #7ececa;
+}
+
+.reset {
+    background-color: tomato;
+}
