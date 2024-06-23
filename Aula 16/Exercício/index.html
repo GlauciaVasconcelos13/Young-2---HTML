@@ -3,23 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício - DropFile</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="conteiner">
-        <h2 class="titulo">Upload your File:</h2>
-        <div class = "conteiner-imagem">
-            <img class="imagem" src="https://static.vecteezy.com/ti/vetor-gratis/t2/5083124-icone-de-nuvem-com-direcao-para-cima-seta-design-plano-da-nuvem-vetor.jpg">
-            <h3 class="aviso">Drag & DropFile
-                or browse
-            </h3>
-            <p>
-                Supports: JPEG, JPG, PNG
-            </p>
+    <main class="conteiner">
+        <h3 class="titulo">Upload your file:</h3>
+        <div class="conteiner-img">
+            <span class="titulo-drag">Drag & Drop</span>
+            <span class="aviso">Supports: JPEG, JPG, PNG</span>
+            <input type="file" name="myFile" class="drag&drop">
         </div>
-        <button class="download">Download</button>
-    </div>
+        <button>Download</button>
+    </main>
 </body>
 </html>

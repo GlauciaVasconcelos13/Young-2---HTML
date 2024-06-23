@@ -1,3 +1,7 @@
-const IMAGEM = document.querySelector ('imagem')
-const CONTEINER_IMAGEM = document.querySelector ('imagem')
-const BOTAO = document.querySelector ('download')
+document.querySelectorAll(".drag&drop").forEach(inputElement => {
+    const dropZoneElement = inputElement.closest(".conteiner");
+
+    dropZoneElement.addEventListener('dragover', e => {
+        dropZoneElement.classList.add('conteiner-mover')
+    })
+})
