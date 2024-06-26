@@ -44,6 +44,7 @@ body {
     padding: 5%;
     font-size: 18px;
     font-weight: 500;
+    margin: 5%;
 
 }
 
@@ -52,7 +53,7 @@ button {
     height: 8%;
     border: none;
     border-radius: 15px;
-    background-color: #f757e4;
+    background-color: #f757e4ab;
     font-weight: bold;
     font-size: 20px;
     color: white;

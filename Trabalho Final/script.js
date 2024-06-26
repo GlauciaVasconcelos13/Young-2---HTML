@@ -16,4 +16,3 @@ function salvar_dados () {
     localStorage.setItem ('TITULO', TITULO.value)
     localStorage.setItem ('TEXTO', TEXTO.value)
 }
-

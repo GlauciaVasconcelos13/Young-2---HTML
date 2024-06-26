@@ -23,16 +23,17 @@ body {
     padding: 40px;
     border-radius: 20px;
     gap: 100px;
+    width: 22%;
     height: 80%;
     margin: 5%;
     box-shadow: #2c033b 5px 5px 10px ;
 }
 
 .foto {
-    width: 15em;
+    width: 13em;
     height: 15em;
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .conteiner-botoes {
@@ -102,4 +103,9 @@ button {
 button:hover {
     box-shadow: #2c033b 5px 5px 10px;
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    /* color: black; */
 }
