@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+body {
+    background-color: rgb(2, 250, 229);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#horario {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+
+#content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    gap: 10px;
+}
+
+#saudacao {
+    font-size: 40px;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner-botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.conteiner-botoes button {
+    margin: 10%;
+    
+}
+.voltar {
+    background-color: transparent;
+    width: 100%;
+    padding: 10%;
+    font-size: large;
+    border-radius: 5px;
+    border: 5px solid #f757e4ab;
+    box-shadow: 5px 5px 10px gray;
+    font-style: italic;
+}
+
+.avancar {
+    width: 100%;
+    padding: 13%;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: #f757e4ab;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.avancar:hover {
+    box-shadow: 2.5px 2.5px 5px purple;
+}
+
+.voltar:hover {
+    box-shadow: 2.5px 2.5px 5px purple;
+}
+
+
