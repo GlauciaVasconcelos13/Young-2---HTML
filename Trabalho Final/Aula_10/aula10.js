@@ -1,7 +1,20 @@
-let hora = window.prompt('Digite uma hora')
-let titulo = document.getElementById('horario')
-let saudacao = document.getElementById('saudacao')
-let imagem = document.getElementById('foto')
+const hora = window.prompt('Digite uma hora')
+
+const titulo = document.querySelector('#horario')
+const saudacao = document.querySelector('#saudacao')
+const imagem = document.querySelector('#foto')
+const botao_avançar = document.querySelector ('.avancar')
+const botao_voltar = document.querySelector ('.voltar')
+
+botao_avançar.addEventListener ('click', salvar_dados)
+
+function salvar_dados () {
+    localStorage.setItem ('titulo')
+    localStorage.setItem ('suadacao')
+    localStorage.setItem ('imagem')
+    localStorage.setItem ('botao_avançar')
+    localStorage.setItem ('botao_voltar')
+}
 
 titulo.innerText = `Agora são ${hora} horas`
 
@@ -28,3 +41,4 @@ else {
     titulo.style.color = 'white'
     saudacao.style.color = 'dimgrey'
 }
+
