@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 100%;
+    background-color: #ccff33;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho img {
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+}
+
+.logo1 {
+    border-radius: 50%;
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.botoes {
+    display: flex;
+    gap: 32px;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #b8008a;
+    font-weight: bold;
+}
+
+a:hover{
+    transition: 0.3s;
+    border-bottom: solid 3px #b8008a;
+    outline:none;
+}
+
+
+.conteudo {
+    border-top: solid 1px #b877a8;
+}
+
+.sessao {
+    background-color: #b877a8;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.texto h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #ffcc33;
+    font-size: 60px;
+}
+
+.texto {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.sessao2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    width: 100%;
+}
+
+.texto2 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #ff3366;
+    font-size: 60px;
+}
+
+.texto2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10%;
+    font-size: 10px;
+}
