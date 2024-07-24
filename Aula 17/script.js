@@ -8,6 +8,7 @@ const RESULT4 = document.querySelector ('#result4')
 const RESULT5 = document.querySelector ('#result5')
 
 
+
 BUTTON.addEventListener ('click', get_weather)
 
 async function get_weather () {
