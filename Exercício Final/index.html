@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Landing Page - Hobbys</title>
     <meta name="description" content="Acesse os diferentes hobbies">
     <link href="style.css" rel="stylesheet">
-    <script src = "script.js" defer></script>
+    <link rel="icon" href="../Exercício Final/Imagens/logo.png">
 </head>
 <body>
-    <div class="cabecalho">
-        <img src="../Exercício Final/Imagens/logo.png" class="logo">
-        <ul class="botoes" style="list-style: none;">
+
+    <div id="cabecalho">
+        <img src="../Exercício Final/Imagens/logo.png" ">
+        <ul id="botoes" style="list-style: none;">
             <li>
-                <a href=".sessao">Introdução</a>
+                <a href="#intro">Introdução</a>
             </li>
             <li>
-                <a href=".sessao2">Hobbie 1</a>
+                <a href="#hobbie1">Hobbie 1</a>
             </li>
             <li>
-                <a href=".sessao">Hobbie 2</a>
+                <a href="#hobbie2">Hobbie 2</a>
             </li>
         </ul>
     </div>
 
-    <main class="conteudo">
-        <div class="sessao">
-            <div class="texto">
+    <div id="capa">
+        <h1>PASSATEMPOS</h1>
+        <img src="../Exercício Final/Imagens/capa.jpg"class="imagem-capa">
+    </div>
+
+    <main id="conteudo">
+        <div id="intro">
+            <div id="texto-intro">
                 <h1>
-                    HOBBIES
+                    HOBBYS
                 </h1>
                 <p>
                     Olá! Sou Gláucia Vasconcelos, tenho 15 anos e estudante da Ctrl+Play!</br>
@@ -37,11 +43,11 @@
                     <h3>Venha conhecê-los comigo!</h3>
                 </p>
             </div>
-            <img class="img-intro"  src="../Exercício Final/Imagens/imagemhobbie.jpg">
+            <img src="../Exercício Final/Imagens/imagemhobbie.jpg" class="imagem-intro">
         </div>
 
-        <div class="sessao2">
-            <div class="texto2">
+        <div id="hobbie1">
+            <div id="texto-hobbie1">
                 <h1>INSTRUMENTOS</h1>
                 <p>
                     Além dos meus cursos de robótica e programação na Ctrl+Play, </br>
@@ -50,11 +56,11 @@
                     e estou em busca de aprender os instrumentos Violão e Ukulele.
                 </p>
             </div>
-            <img src="../Exercício Final/Imagens/instrumentos.jpg">
+            <img src="../Exercício Final/Imagens/instrumentos.jpg" class="imagem-hobbie1">
         </div>
 
-        <div class="sessao">
-            <div class="texto">
+        <div id="hobbie2">
+            <div id="texto-hobbie2">
                 <h1>CINEMA</h1>
                 <p>
                     Outro hobbie que faz parte do meu lazer é consumir </br>
@@ -64,13 +70,16 @@
                     como: ação, comédia, romance, entre outros.
                 </p>
             </div>
-            <img src="../Exercício Final/Imagens/filme.jpg">
+            <img src="../Exercício Final/Imagens/filme.jpg" alt="" class="imagem-hobbie2">
         </div>
     </main>
 
-    <footer class="rodape">
-        <img class = "logo1" src="../Exercício Final/Imagens/logo.png">
+    <footer id="rodape">
+        <img id = "logo" src="../Exercício Final/Imagens/logo.png">
         <h4>Feito por uma estudante da Ctrl+Play!</h4>
     </footer>
+
+    <a href="#capa" class="voltar-topo">INÍCIO</a>
+
 </body>
 </html>

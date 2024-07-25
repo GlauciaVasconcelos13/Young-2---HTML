@@ -16,70 +16,82 @@ body {
     height: 100vh;
 }
 
-.cabecalho {
+/* CAPA */
+
+#capa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcc33;
+    padding: 75px 30px 30px 30px;
+    font-size: 50px;
+    color: #ff3366;
+}
+
+#cabecalho {
+    position: fixed;
     display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding: 8px 10px 8px 10px;
+    background-color: #ccff33;
+    width: 100%;
+    border-bottom: solid 1px #ff3366;
 }
 
-.cabecalho img {
+#cabecalho img {
     border-radius: 50%;
     width: 5%;
     height: 5%;
 }
 
-.logo1 {
+#logo {
     border-radius: 50%;
     width: 2.5%;
     height: 2.5%;
 }
 
-.botoes {
+#botoes {
     display: flex;
     gap: 32px;
     font-size: 80%;
     cursor: pointer;
 }
 
-a {
+#cabecalho a {
     text-decoration: none;
     color: #b8008a;
     font-weight: bold;
 }
 
-a:hover{
+#cabecalho a:hover{
     transition: 0.3s;
     border-bottom: solid 3px #b8008a;
     outline:none;
 }
 
+/* INTRODUÇÃO */
 
-.conteudo {
-    border-top: solid 1px #b877a8;
-}
-
-.sessao {
-    background-color: #b877a8;
-    padding: 30px;
+#intro {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #b877a8;
     font-family: "Open Sans", sans-serif;
     color: white;
-    width: 100%;
+    padding: 30px   ;
 }
 
-.texto h1 {
+#texto-intro h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     color: #ffcc33;
     font-size: 60px;
 }
 
-.texto {
+#texto-intro {
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -93,7 +105,9 @@ img {
     border-radius: 0px 20px 0px 20px;
 }
 
-.sessao2 {
+/* HOBBIE 1 */
+
+#hobbie1 {
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -104,20 +118,51 @@ img {
     width: 100%;
 }
 
-.texto2 h1 {
+#texto-hobbie1 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    color: #ff3366;
+    color: #b8008a;
     font-size: 60px;
 }
 
-.texto2 {
+#texto-hobbie1 {
     display: flex;
     gap: 10px;
     flex-direction: column;
     font-size: 18px;
     font-weight: 600;
 }
+
+/* HOBBIE 2 */
+
+#hobbie2 {
+    background-color: #b877a8;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 100%;
+}
+
+#texto-hobbie2 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #ffcc33;
+    font-size: 60px;
+}
+
+#texto-hobbie2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* FOOTER */
 
 footer {
     display: flex; 
@@ -127,4 +172,32 @@ footer {
     padding: 10px;
     gap: 10%;
     font-size: 10px;
+}
+
+/* VOLTAR AO TOPO */
+
+.voltar-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 8%;
+    height: 5%;
+    color: white;
+    background-color: #b877a8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 2.5px 2.5px 5px gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.voltar-topo:hover {
+    border: 2px solid #ffcc33;
+    color: #ffcc33;
+    box-shadow: 2.5px 2.5px 5px #ccff33;
 }
