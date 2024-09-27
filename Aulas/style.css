@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+}
+
+body {
+    margin-top:0; 
+    margin-left:auto;
+    margin-bottom:0;
+    margin-right:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: #FF823A;
+    font-weight:bold;
+    padding: 20px;
+}
+
+.topnav {
+    background: url(
+        https://st.depositphotos.com/3877249/58355/v/450/depositphotos_583559770-stock-illustration-alien-spaceship-game-icons-vector.jpg
+    );
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.titulo {
+    font-size: 20px; 
+    color: #FF823A;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0px 150px 0px 150px
+}
+
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+.column {
+    /* overflow: hidden; */
+    float: left;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    animation: borderAnimation 2s forwards;
+}
+
+.column-middle {
+    border-radius: 45px;
+    padding: 14px 16px;
+    background: url(https://www.infoescola.com/wp-content/uploads/2008/04/galaxia-andromeda.jpg);
+    color: white;
+    width: 50%; 
+    background-color: #64d5f8;
+}
+
+@keyframes borderAnimation {
+    from {
+        border-radius: 0px;
+        color: black;
+    }
+    to {
+        border-radius: 30px;
+        color: white;
+    }
+}
+
+
+.column-side {
+    border-radius: 45px;
+    padding: 14px 16px;
+    background-color: #e9f864;
+    width: 25%;
+    background: url(https://www.infoescola.com/wp-content/uploads/2008/04/galaxia-andromeda.jpg);
+    color: white;
+}
+
+
+
