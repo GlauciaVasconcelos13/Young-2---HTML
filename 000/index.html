@@ -1,47 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALURAFLIX</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Fornecedores - Vendas</title>
+    <link rel="stylesheet" href="../../CSS/fornecedores.css">
 </head>
 <body>
-    <section class="chamada">
-        <div class="chamada-texto">
-            <header>ALURAFLIX</header>
-            <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
-            <p>#homem-aranha</p>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=B-CBq0lciLLiXH9b" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen></iframe>
-        </div>
-    </section>
-    <section class="categoria">
-        <h2>Filmes e séries</h2>
-            <div class="categoria-videos">
-                <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-                  <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-                </a>
-                <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
-                  <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
-                </a>
-                <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-                  <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-                </a>
-                <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-                  <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
-                </a>
-                <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-                  <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
-                </a>
-            </div>
-    </section>
-  
-  <!-- código omitido -->
-  
+    <main>
+        <h1>
+            FORNECEDORES
+        </h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Ações</th>
+            </tr>
+            <?php
+                if(count($infos) == 0){
+                    echo'<tr>
+                            <td colspan = "4">Nada registrado</td>
+                        </tr>';
+                }
+                else {
+                    foreach($infos as $item){
+                        $id = $item[0];
+                        $nome = $item[1];
+                        $cidade = $item[2];
+                        echo'<tr>
+                            <td>'. $id .'</td>
+                            <td>'. $nome .'</td>
+                            <td>'. $cidade .'</td>
+                            <td><a href="">EDITAR</a> | <a href="../../db/deletar_fornecedor.php?id='. $id .'">DELETAR</a></td>
+                        </tr>';
+                    }
+                }
+            ?>
+            <tr class="botoes">
+                <td colspan = "4"><<a href="formulario.php">Adicionar</a></td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>

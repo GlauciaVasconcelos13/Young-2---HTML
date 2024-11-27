@@ -1,84 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lora', sans-serif;
 }
 
 body {
-    background-color: rgb(158, 248, 236);
-    font-family: "Poppins", sans-serif;
-    color: black;
+    background-color: #9dbfaf;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+main {
+    background-color: #fcf9d898;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #065f5e;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button,
+a {
+    box-shadow: 5px 5px 10px gray;
+    background-color: #00ccbe96;
     padding: 10px;
-    margin: 10px;
-    margin-bottom: 100px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 45%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
-header {
-    border: solid 2px orange;
-    padding: 15px;
-    font-size: 22px;
-    color: orange;
+
+h1 {
+    color: #1c5052;
+    font-size: 40px;
 }
 
-section {
-    background: rgb(184,156,213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+th {
+    color: #1c5052;
+}
+.botoes {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.chamada-texto {
-    margin-right: 5%;
-}
-
-img {
-    height: 200px;
-    box-shadow: 5px 5px 10px black;
-}
-
-iframe{
-    box-shadow: 5px 5px 10px black;
-}
-
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-  }
-  
-.categoria-videos section {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.chamada {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-}
-
-.categoria-videos img {
-    opacity: 0.5;
-    height: 200px
-}
-
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 1px solid green;
-
-}
-
-.categoria h2 {
-    color: rgb(42, 122, 228);
+a:hover{
+    border: solid 2px #1c5052;
 }
